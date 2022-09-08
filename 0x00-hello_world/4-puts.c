@@ -2,11 +2,11 @@
 /*
  * Description - my first C entry point
  * Return: always 0 (success)
- */
+*/
 
-int main(void) /* Entry point */
+int main(void)
 {
-	char a[] = '"Programming is like building a multilingual puzzle'i;
+	char a[] = "Programming is like building a multilingual puzzle";
 
 	puts(a);
 
