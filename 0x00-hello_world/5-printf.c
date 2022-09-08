@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * Description - my first C entry point
+/**
+ * main - my entry C entry point
  * Return: always 0 (success)
 */
 
