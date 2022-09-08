@@ -1,9 +1,12 @@
 #include <stdio.h>
-/* main - my first C entry point */
+/*
+ * Description - my first C entry point
+ * Return: always 0 (success)
+ */
 
-int main(void)
+int main(void) /* Entry point */
 {
-	char a[] = "Programming is like building a multilingual puzzle";
+	char a[] = '"Programming is like building a multilingual puzzle'i;
 
 	puts(a);
 
