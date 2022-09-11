@@ -5,11 +5,16 @@
  */
 int main(void)
 {
-	int c = 97;
-		while (c <= 122 && c != 101)
+	int c;
+
+		for (c = 97; c <= 122; c++)
 		{
+			if ((c == 101) || (c == 113))
+
+			{	continue;
+			}
 			putchar(c);
-			c++;
+
 		}
 
 			putchar(10);
