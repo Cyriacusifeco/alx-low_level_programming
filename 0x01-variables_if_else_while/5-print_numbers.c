@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int c = '0';
-		while (c < '10')
+	int c = 0;
+		while (c < 10)
 
 		{
-			putchar('c');
+			printf ("%d", c);
 			c++;
 		}
 
