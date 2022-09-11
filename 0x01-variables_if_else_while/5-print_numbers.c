@@ -9,7 +9,7 @@ int main(void)
 		while (c < 10)
 
 		{
-			printf ("%d", c);
+			printf("%d", c);
 			c++;
 		}
 
