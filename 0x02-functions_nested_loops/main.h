@@ -9,6 +9,6 @@
 
 */
 
-int _islower(int c);
+int print_last_digit(int);
 
 int _putchar(char );
