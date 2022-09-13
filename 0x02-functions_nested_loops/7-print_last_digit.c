@@ -13,7 +13,7 @@
  * @c: The character to print
  */
 
-int print_last_digit(int c);
+int print_last_digit(int c)
 {
 
 	l = (c % 10);
