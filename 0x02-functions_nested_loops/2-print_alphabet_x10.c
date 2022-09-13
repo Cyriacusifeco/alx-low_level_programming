@@ -10,7 +10,7 @@
 
 void print_alphabet(void);
 
-void main(void)
+int main(void)
 {
 
 		print_alphabet();
@@ -36,5 +36,5 @@ void print_alphabet(void)
 		{       _putchar(c);
 		}
 		       _putchar('\n');
-
+return (0);
 }
