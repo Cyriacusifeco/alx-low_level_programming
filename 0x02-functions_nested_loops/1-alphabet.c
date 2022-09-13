@@ -1,15 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point of program
+ * print_alphabet - Entry point for program
  *
- * return: - Always 0
- *
- * _putchar - writes the character c to stdout
- *
- *
- * print_alphabet - prints all lower case characteret
- *
- * Return: On success 1.
+ * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
  *
  */
