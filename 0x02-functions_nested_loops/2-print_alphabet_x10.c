@@ -10,7 +10,7 @@
 
 void print_alphabet(void);
 
-int main(void)
+void main(void)
 {
 
 		print_alphabet();
