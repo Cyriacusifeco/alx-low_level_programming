@@ -8,19 +8,13 @@
  */
 
 
+void print_alphabet(void)
 
-int _islower(int c)
-{
-	int c;
+{ int c;
 
-	if (c >=97 && c <= 122)
-	{
-		_putchar (1 + '0');
-	}
+	for (c = 'a'; c <= 'z'; c++)
 
-	else 
-	{	_putchar (0 + '0');
+	{	_putchar(c);
 	}
 		_putchar('\n');
-
 }
