@@ -9,7 +9,7 @@
 
 
 
-int _islower(int c)
+int test_islower(int c)
 {
 	if (c >=97 || c <= 122)
 	{
