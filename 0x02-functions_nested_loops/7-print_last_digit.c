@@ -13,11 +13,13 @@
  * @c: The character to print
  */
 
-int print_last_digit(int c)
-{
 	l;
 
+int print_last_digit(int c)
+{
+
 	l = (c % 10);
+
 	return (l);
 	
 	_putchar('\n');
