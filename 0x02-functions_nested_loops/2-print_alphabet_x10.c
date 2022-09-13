@@ -24,7 +24,7 @@ int main(void)
 		print_alphabet();
 		print_alphabet();
 
-return;
+return(0);
 }
 
 void print_alphabet(void)
@@ -36,5 +36,5 @@ void print_alphabet(void)
 		{       _putchar(c);
 		}
 		       _putchar('\n');
-return;
+return(0);
 }
