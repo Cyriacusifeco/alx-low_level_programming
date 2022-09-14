@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point for program
+ * _isalpha - Entry point for program
  * @c: The character to print
  *
  * Return: On success 1
