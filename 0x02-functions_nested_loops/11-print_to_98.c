@@ -8,16 +8,6 @@
  * On error, -1 is returned, and errno is set appropriately.
  *
  */
-void print_to_98(int n);
-
-
-void main(void)
-
-{	print_to_98(98);
-	print_to_98(80);
-	print_to_98(110);
-}
-
 
 void print_to_98(int n)			
 
