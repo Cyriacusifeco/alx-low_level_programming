@@ -8,16 +8,29 @@
  * On error, -1 is returned, and errno is set appropriately.
  *
  */
+void print_to_98(int n);
 
-void print_to_98(int n)
 
-{	while (n >= 98)
+void main(void)
+
+{	print_to_98(98);
+	print_to_98(80);
+	print_to_98(110);
+}
+
+
+void print_to_98(int n)			
+
+{	while ((n >= 98) && (n <! 98))
 	{ printf("%d, ", n);
 		n--;
 	}
 
-	while (n <= 98)
+	while ((n <= 98) && (n >! 98))
 	{ printf("%d, ", n);
 		n++;
+	
 	}
+	"\n";
+
 }
