@@ -8,13 +8,19 @@
  */
 
 
-void print_alphabet(void)
+int _abs(int c)
 
-{ int c;
+{ 	int a;
 
-	for (c = 'a'; c <= 'z'; c++)
+	if (c < 0)
 
-	{	_putchar(c);
+	{	a = c * (-1);
+		return (a);
 	}
+
+	else
+		a = c;
+		return (c);
+
 		_putchar('\n');
 }

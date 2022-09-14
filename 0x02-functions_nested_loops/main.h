@@ -9,6 +9,6 @@
 
 */
 
-int print_last_digit(int);
+int _abs(int c);
 
 int _putchar(char );
