@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point for program
+ * _isalpha - Entry point for program
+ * @c: The character to print
  *
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
@@ -8,13 +9,27 @@
  */
 
 
-void print_alphabet(void)
+/**
+ * @c: The character to print
+ */
 
-{ int c;
+int print_sign(int n)
+{
 
-	for (c = 'a'; c <= 'z'; c++)
-
-	{	_putchar(c);
+	if (n > 0)
+	{
+		return (1);
+		_putchar(43);
 	}
-		_putchar('\n');
+
+	else if (n == 0)
+	{	return (0);
+		_putchar(48);
+	}
+
+	else
+		return (-1);
+		_putchar(45);
+
+
 }
