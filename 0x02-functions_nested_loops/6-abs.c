@@ -15,11 +15,12 @@ int _abs(int c)
 	if (c < 0)
 
 	{	a = c * (-1);
+
 		return (a);
 	}
 
 	else
-		a = c;
+		
 		return (c);
 
 		_putchar('\n');
