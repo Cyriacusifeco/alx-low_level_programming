@@ -11,4 +11,6 @@
 
 int _abs(int c);
 
+int _isalpha(int);
+
 int _putchar(char );
