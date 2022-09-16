@@ -1,7 +1,8 @@
-
+#include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - Entry point for program
+ * _isdigit - Entry point for program
+ * @c: The character to print
  *
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
@@ -9,29 +10,31 @@
  */
 
 
+/**
+ * @c: The character to print
+ */
 
-void print_most_numbers(void)
+int _isdigit(int c)
 {
-	int c;
 
-	for (c = 0; c <= 9; c++)
-
-	{	if (c == 2 || c == 4)
-		{	continue;
-		}
-
-		putchar (c+'0');
-
+	if (c >= 48 && c <= 57)
+	{
+		return (1);
 	}
 
-
-		putchar('\n');
+	else
+	{	return (0);
+	}
+		_putchar('\n');
 
 }
-
-
 int main(void)
 {
-	    print_most_numbers();
-	        return (0);
+	    char c;
+
+	        c = '0';
+		    printf("%c: %d\n", c, _isdigit(c));
+		        c = 'a';
+			    printf("%c: %d\n", c, _isdigit(c));
+			        return (0);
 }
