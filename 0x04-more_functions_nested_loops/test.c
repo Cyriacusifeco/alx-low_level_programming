@@ -1,0 +1,37 @@
+
+#include <stdio.h>
+/**
+ * print_numbers - Entry point for program
+ *
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately.
+ *
+ */
+
+
+
+void print_most_numbers(void)
+{
+	int c;
+
+	for (c = 0; c <= 9; c++)
+
+	{	if (c == 2 || c == 4)
+		{	continue;
+		}
+
+		putchar (c+'0');
+
+	}
+
+
+		putchar('\n');
+
+}
+
+
+int main(void)
+{
+	    print_most_numbers();
+	        return (0);
+}
