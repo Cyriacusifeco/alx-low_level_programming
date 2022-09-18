@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point for program
+ * print_last_digit - Entry point for program
  * @c: The character to print
  *
  * Return: On success 1
@@ -16,14 +16,15 @@
 int print_last_digit(int c)
 {
 
-	int l = ((c % 10));
-	
+	int l = (c % 10);
+
 	if (l < 0)
-	{ l = l*(-1);
-	  _putchar('0' + l);
-	return (l);
-	
-	_putchar('\n');
+
+	{
+		l = l * -1;
+
 	}
-return (0);
+	_putchar('0' + l);
+
+return (l);
 }
