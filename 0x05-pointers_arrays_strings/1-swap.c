@@ -6,7 +6,8 @@
 
 /**
  * swap_int - Entry point for program
- * @n: Initialized variable to 98
+ * @a: pointer
+ * @b: pointer
  * Return: 0 on success
  */
 void swap_int(int *a, int *b)
