@@ -15,14 +15,17 @@ void print_line(int n)
 {
 	int c = 1;
 
-	while (c <= n && n > 0)
-
+	if (n > 0)
 	{
+		while (c <= n)
+
+		{
 		_putchar('_');
 		c++;
+		}
 	}
 
-	if (n <= 0)
+	else
 	{
 		_putchar('\n');
 	}
