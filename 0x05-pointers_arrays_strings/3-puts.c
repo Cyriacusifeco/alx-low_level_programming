@@ -6,10 +6,19 @@
 
 /**
  * _puts - Entry point for program
- * @str: Initialized variable to 98
+ * @str: string input to be print
  * Return: 0 on success
  */
 void _puts(char *str)
 {
-	printf("%s ", str);
+	int c = 0;
+	while (*(str + c) != '\0')
+	{
+		_putchar(*(str + c));
+		c++;
+	}
+
+	_putchar(10);
+
+
 }
