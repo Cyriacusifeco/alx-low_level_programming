@@ -28,9 +28,9 @@ int _atoi(char *s)
 
 		while ((s[i] >= 48) && (s[i] <= 57))
 		{
-			integr = (integr * 10) + (s[i] - 48);
+			integr = (integr * 10) + sign * ((s[i]) - 48);
 					i++;
-			integr = sign * integr;
+
 		}
 
 
