@@ -2,12 +2,12 @@
 /**
  * _atoi - convert string to integer
  * @s: string variable
- * 
+ *
  * Return: int
  */
 int _atoi(char *s)
 {
-		int c, i, j, integr, sign;
+		int i, j, integr, sign;
 
 
 		j = integr = 0;
@@ -24,7 +24,7 @@ int _atoi(char *s)
 			j++;
 		}
 
-		j = i;
+		i = j;
 
 		while ((s[i] >= 48) && (s[i] <= 57))
 		{
