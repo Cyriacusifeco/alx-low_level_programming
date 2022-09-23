@@ -3,6 +3,7 @@
  * _strncat - concatenates two strings
  * @dest: Destination string
  * @src: Source string
+ * @n: Number of strings to concatenate
  *
  * Return: Concatenated version of the strings
  */
