@@ -3,14 +3,14 @@
 
 /**
  * is_palindrome - Check if input is palindrome
- * @n: Input variable
+ * @s: Input variable
  * Return: Always 1 on success
  */
-int is_prime_number(int n)
+int is_palindrome(char *s)
 {
-	int sqr;
+	int sqr = 0;
 
-	sqr = 2 * n;
+	sqr = s[sqr] + 1;
 
 
 return (sqr);
