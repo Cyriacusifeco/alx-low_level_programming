@@ -14,5 +14,5 @@ int _pow_recursion(int x, int y)
 	sum = x + y;
 
 
-return (1);
+return (sum);
 }
