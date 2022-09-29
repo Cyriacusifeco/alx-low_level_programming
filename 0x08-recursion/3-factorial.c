@@ -10,11 +10,7 @@ int factorial(int n)
 {
 	int i = 0;
 
-	if (s[i] != '\0')
-	{
-		return (1);
-	}
-		_putchar(s[i]);
+		_putchar(n);
 			i++;
 
 return (1);
