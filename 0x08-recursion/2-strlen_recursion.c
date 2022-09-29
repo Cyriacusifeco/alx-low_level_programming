@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 
 	if (s[i] != '\0')
 	{
-		return(1);
+		return (1);
 	}
 		_putchar(s[i]);
 			i++;
