@@ -1,26 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 #include "main.h"
-/* more headers goes there */
-
 /**
  * _strlen - Entry point for program
- * @s: Initialized variable to 98
- * Return: 0 on success
+ * @s: The character to print
+ *
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately.
+ *
  */
+
 int _strlen(char *s)
 {
 
-
-	int i = 0;
-
-	while (*(s + i) != '\0')
-	{
-
-		i++;
-	}
-
-
-return (i);
+return (0);
 }
