@@ -8,10 +8,24 @@
  */
 int factorial(int n)
 {
-	int i = 0;
+	int fact = 0;
 
-		_putchar(n);
-			i++;
+	if (n < 0)
+	{
+		return (-1);
+	}
 
-return (1);
+	else if (n == 0)
+	{
+		return (1);
+	}
+
+	else
+
+	{
+
+		fact = n * factorial(n - 1);
+	}
+
+return (fact);
 }
