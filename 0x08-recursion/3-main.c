@@ -12,11 +12,11 @@ int main(void)
 
 	        r = factorial(1);
 		    printf("%d\n", r);
-		        r = factorial(5);
+		        r = factorial(7);
 			    printf("%d\n", r);
-			        r = factorial(10);
+			        r = factorial(12);
 				    printf("%d\n", r);
-				        r = factorial(-1024);
+				        r = factorial(-98);
 					    printf("%d\n", r);
 					        return (0);
 }
