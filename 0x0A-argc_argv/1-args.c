@@ -9,10 +9,23 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
-	printf("%d\n", argc);
 
-	printf("%s\n", argv[0]);
+	int i = 0;
+	i = (i % 10);
+
+	*argv = argv[0];
+
+	if (argc > 1)
+	{
+		if (argc - 1 == 0)
+		{
+			printf("%d\n", i);
+		}
+
+	printf("%d\n", argc - 1);
+
+	}
+
 
 return (0);
 }
