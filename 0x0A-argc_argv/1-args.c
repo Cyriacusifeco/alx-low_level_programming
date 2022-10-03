@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 
 	int i = 0;
+
 	i = (i % 10);
 
 	*argv = argv[0];
