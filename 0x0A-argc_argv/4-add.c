@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry point for program
+ * main - Finds the sum of positive numbers
  * @argc: counts the number of arguments passed
  * @argv: contains an array of strings passed
  *
@@ -9,10 +9,15 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
-	printf("%d\n", argc);
+	int i = 1;
+	int sum = 0;
 
-	printf("%s\n", argv[0]);
+	for (; i < argc; i++)
+	{
+		sum += atoi(argv[i]);
+	}
+
+	printf("%d\n", sum);
 
 return (0);
 }
