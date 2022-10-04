@@ -9,10 +9,26 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
-	printf("%d\n", argc);
+	int i = 1;
+	int mul = 1;
 
-	printf("%s\n", argv[0]);
+	if (argc > 2)
+	{
+		for (i = 1; i < argc; i++)
+		{
+			mul *= atoi(argv[i]);
+		}
 
-return (0);
+		printf("%d\n", mul);
+	}
+
+	else if (argc == 1 || argc < 3)
+	{
+		printf("%s\n", "Error");
+
+		return (1);
+
+	}
+
+	return (0);
 }
