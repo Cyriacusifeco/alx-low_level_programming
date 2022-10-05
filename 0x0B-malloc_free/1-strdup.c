@@ -10,11 +10,11 @@
  */
 char *_strdup(char *str)
 {
-	int i;
+	int i = 1;
 	int len;
 	char *ptr;
 
-	if (*str == '\0')
+	if (str == NULL)
 	{
 		return (NULL);
 	}
@@ -23,10 +23,7 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
-	
-	printf("string len: %d\n", i);
 
-	len = i;
 
 	ptr = malloc(sizeof(char) * (len + 1));
 
