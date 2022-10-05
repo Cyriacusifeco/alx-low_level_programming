@@ -8,12 +8,15 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i = 0;
-	int j = 0;
+	int i = 0, j = 0, c = 0;
 	int s2len;
-	int c;
 	int strlen;
 	char *ptr;
+
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 /* Finds the lenght of each string */
 	while (s1[i] != '\0')
 	{
@@ -27,13 +30,11 @@ char *str_concat(char *s1, char *s2)
 	strlen = (i + j);
 	ptr = malloc(sizeof(char) * (strlen + 1));
 /* Fills allocated memory with s1 string */
-	for (c = 0; c < i; c++)
+	for (; c < i; c++)
 	{
 		ptr[c] = s1[c];
 	}
 	for (j = 0; j <= s2len; j++)
-	{
 		ptr[c + j] = s2[j];
-	}
 return (ptr);
 }
