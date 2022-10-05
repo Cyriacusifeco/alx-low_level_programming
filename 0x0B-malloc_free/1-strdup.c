@@ -23,17 +23,19 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
+	
+	printf("string len: %d\n", i);
 
 	len = i;
 
-	ptr = malloc(sizeof(char) * len);
+	ptr = malloc((sizeof(char) * len) + 1);
 
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = 0; i <= len; i++)
+	for (i = 0; i < len; i++)
 	{
 		ptr[i] = str[i];
 	}
