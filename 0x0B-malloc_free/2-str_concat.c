@@ -29,6 +29,8 @@ char *str_concat(char *s1, char *s2)
 	s2len = j;
 	strlen = (i + j);
 	ptr = malloc(sizeof(char) * (strlen + 1));
+	if (ptr == NULL)
+		return (NULL);
 /* Fills allocated memory with s1 string */
 	for (; c < i; c++)
 	{
