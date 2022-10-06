@@ -1,24 +1,22 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * malloc - dynamically allocates memory
+ * @b: memory size parameter
  * 
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success, pointer to newly allocated memory
+ * On error, returns NULL.
 
 */
 
-char *create_array(unsigned int size, char c);
+void *malloc_checked(unsigned int b);
 
-char *_strdup(char *str);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
-char *str_concat(char *s1, char *s2);
+void *_calloc(unsigned int nmemb, unsigned int size);
 
-int **alloc_grid(int width, int height);
+int *array_range(int min, int max);
 
-void free_grid(int **grid, int height);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
-char *argstostr(int ac, char **av);
-
-char **strtow(char *str);
+int main(int argc, char *argv[]);
