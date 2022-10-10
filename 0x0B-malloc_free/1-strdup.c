@@ -10,7 +10,7 @@
  */
 char *_strdup(char *str)
 {
-	int i = 1;
+	int i = 0;
 	int len;
 	char *ptr;
 
@@ -25,6 +25,7 @@ char *_strdup(char *str)
 	}
 
 	len = i;
+	printf ("lenght is: %d\n", len);
 
 
 	ptr = malloc(sizeof(char) * (len + 1));
