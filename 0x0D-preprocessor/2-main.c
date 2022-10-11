@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints the compilation file
- * return: Nothing
+ *
+ * Return: Always 0 on success
  */
 
 int main(void)
