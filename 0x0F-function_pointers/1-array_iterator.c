@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_iterator - a function that exexcutes another function with array elements.
+ * array_iterator - exexcutes another function with array elements.
  * @array: pointer to array to be iterated
  * @action: function pointer to function to be executed
+ * @size: array size
  * Return: nothing on success.
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
