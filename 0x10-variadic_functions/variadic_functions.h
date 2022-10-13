@@ -4,7 +4,7 @@
 /**
  * sum_them_all - sums all arguments
  * @n: number of arguments.
- *
+ * Return: sum of arguments on success.
 */
 
 int sum_them_all(const unsigned int n, ...);
