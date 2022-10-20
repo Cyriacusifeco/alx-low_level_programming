@@ -1,4 +1,5 @@
-nclude "lists.h"
+#include "lists.h"
+#include <stdlib.h>
 
 /**
  * free_list - A function that frees a list_t list.
@@ -14,7 +15,6 @@ void free_list(list_t *head)
 	{
 		temp = head;
 		free(temp->str);
-		free(temp->len);
 		head = temp->next;
 		free(temp->next);
 		free(temp);
