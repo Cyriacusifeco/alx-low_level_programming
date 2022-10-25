@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - a function that returns the nth node of a listint_t linked list.
+ * get_nodeint_at_index - finds the nth node of a linked list.
  * @head: pointer to the start of the list
  * @index: index to be returned
  * Return: index
@@ -19,9 +19,9 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 
 	nth_node = head;
 
-	while (n < index)
+	while ((n < index) && (nth_node->next))
 	{
-	       nth_node = nth_node->next;
+		nth_node = nth_node->next;
 		n++;
 	}
 
