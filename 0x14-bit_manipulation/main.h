@@ -1,19 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <unistd.h>
-/**
- * struct listint_s - type for singly linked list
- * @n: integer data in linked list
- * @next: points to the next node in the list
- *
- * Description: singly linked list node structure
- */
-typedef struct listint_s
-{
-	int n;
-	struct listint_s *next;
 
-} listint_t;
+/**
+ * binary_to_uint - binary to decimal
+ * @b: char string
+ * Return: Decimal integer on success.
+ */
 
 unsigned int binary_to_uint(const char *b);
+void print_binary(unsigned long int n);
+int _putchar(char c);
 #endif
