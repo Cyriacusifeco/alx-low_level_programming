@@ -28,10 +28,10 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	{
 		head = head->next;
 
-	}
+		if (head == NULL)
+			return (NULL);
 
-	if (head == NULL)
-		return (NULL);
+	}
 
 return (head->value);
 }
