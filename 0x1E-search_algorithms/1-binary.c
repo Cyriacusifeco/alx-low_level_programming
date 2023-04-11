@@ -43,7 +43,6 @@ int binary_search(int *array, size_t size, int value)
 		}
 		max = j;
 		min = i;
-		i++;
 	}
 return (-1);
 }
