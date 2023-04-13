@@ -33,6 +33,12 @@ int binary_search(int *array, size_t size, int value)
 			j = m - 1;
 		else
 			return (m);
+<<<<<<< HEAD:0x1E-search_algorithms/1_binary.c
+=======
+		}
+		max = j;
+		min = i;
+>>>>>>> 030d869f947910040376aab656396995a7bf352a:0x1E-search_algorithms/1-binary.c
 	}
 	return (-1);
 }
